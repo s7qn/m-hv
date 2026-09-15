@@ -2,6 +2,8 @@ export type Language = 'ar' | 'en';
 
 export type Stage = 1 | 2 | 3 | 4;
 
+export type DeviceMode = 'auto' | 'phone' | 'tablet' | 'desktop';
+
 export interface Subject {
   id: string;
   code: string;
